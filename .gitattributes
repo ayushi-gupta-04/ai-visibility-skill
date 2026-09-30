@@ -1,0 +1,3 @@
+# .skill is a binary zip; keep text files LF
+* text=auto eol=lf
+*.skill binary

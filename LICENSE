@@ -1,0 +1,34 @@
+Copyright (c) 2026 Ayushi Gupta. All rights not granted below are reserved.
+
+AI Visibility Checker ("the Skill"), including all files in this repository,
+is licensed under the Creative Commons Attribution-NoDerivatives 4.0
+International License (CC BY-ND 4.0).
+
+In plain words (this summary is not a substitute for the license):
+
+  You MAY
+    - use the Skill, for personal or commercial work, including producing
+      reports for your own clients;
+    - copy and share the Skill in its original, unmodified form.
+
+  You MUST
+    - keep this copyright notice and the license with every copy;
+    - give credit to "Ayushi Gupta" as the author, and keep the
+      "Skill by Ayushi Gupta" credit that the Skill places in its reports.
+
+  You MAY NOT
+    - share, publish or distribute modified versions of the Skill
+      (changed code, instructions, or removed credits);
+    - present the Skill as your own work.
+
+Configuration files you create to run the Skill (for example your own
+visibility-config.json, branding, or .env with your API keys) are yours and
+are not covered by this license.
+
+Full legal text of the license:
+https://creativecommons.org/licenses/by-nd/4.0/legalcode
+
+Human-readable summary:
+https://creativecommons.org/licenses/by-nd/4.0/
+
+For permission to use the Skill beyond these terms, contact the author.
