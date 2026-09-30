@@ -249,6 +249,7 @@ Claude will show you the competitors, buyer questions and estimated cost **once*
 | "No platform API keys found" | Fine. Keyless Claude mode + audit still run. Add keys to `.env` for more platforms. |
 | `HTTP 404 model not found` | A model was retired. Add e.g. `GEMINI_MODEL=gemini-flash-latest` to your `.env` |
 | `HTTP 429 quota exceeded` (Gemini) | Free daily limit reached. Wait a day or enable billing; the skill falls back to a lighter model automatically |
+| `HTTP 403` / "project has been denied access" (Gemini) | Google blocked the Google Cloud project behind that key. A new key in the same project won't work: at [aistudio.google.com/apikey](https://aistudio.google.com/apikey) choose **Create API key → Create in new project**, put it in `.env`, and run the report again. The skill stops asking Gemini after the first 403 and marks it "Not tested" in the report |
 | Can't reach websites (Claude app) | Allow the domains under Settings → Capabilities → network access |
 
 ---
